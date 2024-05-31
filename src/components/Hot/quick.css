@@ -1,0 +1,520 @@
+.award {
+  top: 50px;
+  position: fixed;
+  background: #191c20;
+  width: 100px;
+  height: 770px;
+  z-index: 2;
+}
+.trending {
+  color: #ff4d4f;
+  background: #25282c;
+  width: 57px;
+  height: 40px;
+  border-radius: 3px;
+  position: relative;
+  top: 25px;
+  left: 18px;
+  padding-left: 21px;
+  padding-top: 12.5px;
+  transition: 0.1s;
+  z-index: 3;
+  cursor: pointer;
+}
+.trending:hover {
+  color: white;
+  background: #ff4d4f;
+}
+.hover p {
+  background: white;
+  position: relative;
+  left: -30px;
+  font-weight: bolder;
+  height: 25px;
+  bottom: 7px;
+  font-size: 14px;
+  padding-left: 23px;
+  padding-top: 4.5px;
+  border-radius: 3px;
+  opacity: 0;
+  font-size: 12px;
+  z-index: 2;
+}
+.trending:hover + .hover p {
+  left: 90px;
+  transition: ease-out 0.1s, opacity 0.5s ease-out;
+  opacity: 1;
+}
+.hover i {
+  color: white;
+  position: relative;
+  bottom: 35px;
+  left: 85px;
+  font-size: 20px;
+  opacity: 0;
+}
+.trending:hover + .hover i {
+  transition: ease-out 1s;
+  opacity: 1;
+}
+.likes {
+  color: #0be881;
+  background: #25282c;
+  width: 57px;
+  height: 40px;
+  border-radius: 3px;
+  position: relative;
+  bottom: 15px;
+  left: 18px;
+  padding-left: 21px;
+  padding-top: 10px;
+  transition: 0.1s;
+  z-index: 3;
+  cursor: pointer;
+}
+.likes:hover {
+  color: white;
+  background: #0be881;
+}
+.hover2 p {
+  background: white;
+  position: relative;
+  left: -30px;
+  font-weight: bolder;
+  height: 25px;
+  bottom: 68px;
+  font-size: 14px;
+  padding-left: 8px;
+  padding-top: 4.5px;
+  border-radius: 3px;
+  opacity: 0;
+  font-size: 12px;
+  z-index: 2;
+}
+.likes:hover + .hover2 p {
+  left: 90px;
+  transition: ease-out 0.1s, opacity 0.5s ease-out;
+  opacity: 1;
+}
+.hover2 i {
+  color: white;
+  position: relative;
+  bottom: 48.5px;
+  left: 85px;
+  font-size: 20px;
+  opacity: 0;
+}
+.likes:hover + .hover2 i {
+  transition: ease-out 1s;
+  opacity: 1;
+}
+.gift {
+  color: #1890ff;
+  background: #25282c;
+  width: 57px;
+  height: 40px;
+  border-radius: 3px;
+  position: relative;
+  bottom: 55px;
+  left: 18px;
+  padding-left: 21px;
+  padding-top: 10px;
+  transition: 0.1s;
+  z-index: 3;
+  cursor: pointer;
+}
+.gift:hover {
+  color: white;
+  background: #1890ff;
+}
+.hover3 p {
+  background: white;
+  position: relative;
+  left: -30px;
+  font-weight: bolder;
+  height: 33px;
+  bottom: 113px;
+  font-size: 14px;
+  padding-top: 2px;
+  border-radius: 3px;
+  opacity: 0;
+  font-size: 12px;
+  z-index: 2;
+}
+.gift:hover + .hover3 p {
+  left: 90px;
+  transition: ease-out 0.1s, opacity 0.5s ease-out;
+  opacity: 1;
+}
+.hover3 i {
+  color: white;
+  position: relative;
+  bottom: 93.5px;
+  left: 85px;
+  font-size: 20px;
+  opacity: 0;
+}
+.gift:hover + .hover3 i {
+  transition: ease-out 1s;
+  opacity: 1;
+}
+.trophy {
+  color: #ffcf00;
+  background: #25282c;
+  width: 57px;
+  height: 40px;
+  border-radius: 3px;
+  position: relative;
+  bottom: 103px;
+  left: 18px;
+  padding-left: 19px;
+  padding-top: 12px;
+  transition: 0.1s;
+  z-index: 3;
+  cursor: pointer;
+}
+.trophy:hover {
+  color: white;
+  background: #ffcf00;
+}
+.hover4 p {
+  background: white;
+  position: relative;
+  left: -30px;
+  font-weight: bolder;
+  height: 25px;
+  bottom: 156.5px;
+  font-size: 14px;
+  padding-top: 5px;
+  border-radius: 3px;
+  opacity: 0;
+  font-size: 12px;
+  z-index: 2;
+}
+.trophy:hover + .hover4 p {
+  left: 90px;
+  transition: ease-out 0.1s, opacity 0.5s ease-out;
+  opacity: 1;
+}
+.hover4 i {
+  color: white;
+  position: relative;
+  bottom: 137.5px;
+  left: 85px;
+  font-size: 20px;
+  opacity: 0;
+}
+.trophy:hover + .hover4 i {
+  transition: ease-out 1s;
+  opacity: 1;
+}
+.history {
+  color: #41464b;
+  background: #25282c;
+  width: 57px;
+  height: 40px;
+  border-radius: 3px;
+  position: relative;
+  bottom: 143px;
+  left: 18px;
+  padding-left: 20px;
+  padding-top: 11px;
+  transition: 0.1s;
+  z-index: 3;
+  cursor: pointer;
+}
+.history:hover {
+  color: white;
+  background: #41464b;
+}
+.hover5 p {
+  background: white;
+  position: relative;
+  left: -30px;
+  font-weight: bolder;
+  height: 35px;
+  bottom: 201.5px;
+  font-size: 14px;
+  padding-top: 3px;
+  border-radius: 3px;
+  opacity: 0;
+  font-size: 12px;
+  z-index: 2;
+}
+.history:hover + .hover5 p {
+  left: 90px;
+  transition: ease-out 0.1s, opacity 0.5s ease-out;
+  opacity: 1;
+}
+.hover5 i {
+  color: white;
+  position: relative;
+  bottom: 182.5px;
+  left: 85px;
+  font-size: 20px;
+  opacity: 0;
+}
+.history:hover + .hover5 i {
+  transition: ease-out 1s;
+  opacity: 1;
+}
+
+/*------------------------------------- Cubes -------------------------------------------*/
+
+.cubes {
+  position: fixed;
+  bottom: 600px;
+  color: white;
+  left: 40px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.play {
+  position: fixed;
+  bottom: 555px;
+  color: white;
+  left: 190px;
+  font-size: 23px;
+  background: white;
+  color: #7d3bff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-left: 18.5px;
+  padding-top: 14.3px;
+  box-shadow: 1px 0 5px;
+}
+.x {
+  position: fixed;
+  bottom: 595px;
+  color: white;
+  left: 383px;
+  font-size: 11px;
+  font-weight: lighter;
+  background: #9f6fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  padding-left: 8.5px;
+  padding-top: 7.5px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.x:hover {
+  background: #b58fff;
+}
+.pCube {
+  font-size: 17px;
+  width: 250px;
+  position: fixed;
+  bottom: 520px;
+  left: 100px;
+  color: rgb(255, 255, 255);
+}
+.pCubes {
+  font-weight: lighter;
+  font-size: 15px;
+  width: 350px;
+  position: fixed;
+  bottom: 490px;
+  left: 50px;
+  color: rgb(255, 219, 219);
+}
+.bg img {
+  position: fixed;
+  width: 400px;
+  bottom: 70px;
+  left: 20px;
+  border-radius: 13px;
+}
+.bg {
+  position: fixed;
+  top: 800px;
+  left: 1px;
+  transition: 0.5s;
+}
+.cube {
+  position: fixed;
+  left: 15px;
+  top: 695px;
+  background: #7d3bff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-top: 8.5px;
+  padding-left: 8.5px;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  z-index: 4;
+  transition: 0.3s ease-out;
+}
+.cube:hover {
+  transform: scale(1.2);
+}
+.X {
+  position: fixed;
+  left: 15px;
+  top: 695px;
+  background: #7d3bff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-top: 8.5px;
+  padding-left: 10.5px;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  z-index: 4;
+  transition: 0.3s ease-out;
+}
+.X:hover {
+  transform: scale(1.2) rotate(180deg); /* Combine both transformations */
+}
+.rocket {
+  position: fixed;
+  bottom: 420px;
+  color: #7d3bff;
+  left: 60px;
+  font-size: 14px;
+}
+.pRocket {
+  font-size: 14px;
+  position: fixed;
+  bottom: 416px;
+  width: 200px;
+  left: 90px;
+  font-weight: lighter;
+}
+.pRockets {
+  font-size: 13px;
+  position: fixed;
+  bottom: 375px;
+  width: 400px;
+  left: 55px;
+  font-weight: lighter;
+  color: #9f6fff;
+}
+.instagram {
+  position: fixed;
+  bottom: 320px;
+  color: #7d3bff;
+  left: 60px;
+  font-size: 14px;
+}
+.pIns{
+  font-size: 14px;
+  position: fixed;
+  bottom: 317px;
+  width: 300px;
+  left: 90px;
+  font-weight: lighter;
+}
+.pInss{
+  font-size: 14px;
+  position: fixed;
+  bottom: 275px;
+  width: 350px;
+  left: 55px;
+  font-weight: lighter;
+  color: #9f6fff;
+}
+.lock{
+  position: fixed;
+  bottom: 220px;
+  color: #7d3bff;
+  left: 60px;
+  font-size: 14px;
+}
+.pLock{
+  font-size: 14px;
+  position: fixed;
+  bottom: 217px;
+  width: 300px;
+  left: 90px;
+  font-weight: lighter;
+}
+.pLocks{
+  font-size: 14px;
+  position: fixed;
+  bottom: 175px;
+  width: 350px;
+  left: 55px;
+  font-weight: lighter;
+  color: #9f6fff;
+}
+.locks{
+  font-size: 14px;
+  position: fixed;
+  bottom: 79px;
+  width: 350px;
+  left: 36px;
+  opacity: .27;
+}
+.optout{
+  font-size: 13px;
+  position: fixed;
+  bottom: 79px;
+  width: 350px;
+  left: 346px;
+  opacity: .27;
+}
+
+/*----------------------------- Learnmore -------------------------------------------*/
+
+.get{
+  position: fixed;
+  bottom: 120px;
+  width: 177px;
+  height: 27px;
+  border-radius: 13px;
+  font-size: 13.5px;
+  left: 75px;
+  background: #fb397d;
+  color: white;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-top: 5.5px;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+.get:hover{
+  background: #ff6098;
+}
+.arrow{
+  position: fixed;
+  font-size: 13px;
+  left: 232px;
+  bottom: 126px;
+  cursor: pointer;
+}
+.arrow-right{
+  font-size: 13px;
+  position: fixed;
+  font-size: 15px;
+  left: 232px;
+  bottom: 125px;
+  cursor: pointer;
+}
+.learnmore{
+  position: fixed;
+  bottom: 113px;
+  width: 100px;
+  height: 27px;
+  border-radius: 13px;
+  font-size: 13.5px;
+  left: 265px;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.arrow-more{
+  position: fixed;
+  left: 343px;
+  bottom: 123.5px;
+}
+.arrow-right-more{
+  position: fixed;
+  left: 343px;
+  bottom: 123.5px;
+}

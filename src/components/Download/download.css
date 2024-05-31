@@ -1,0 +1,79 @@
+.download-link{
+  margin-top: 110px;
+  margin-left: 200px;
+  width: fit-content;
+  z-index: 10;
+  display: flex;
+}
+.download-poster-details-p{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.download-poster-details img{
+  width: 250px;
+  height: 350px;
+}
+.download-poster-details{
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 7px;
+  border: 5px solid #1a1e22;
+  background: #1a1e22;
+}
+.hdp{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 1px 10px;
+  border-radius: 7px;
+}
+.watch-online{
+  background: #ffcf00;
+  color: rgba(0, 0, 0,);
+  text-align: center;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.watch-online:hover{
+  background: #ffe262;
+}
+.poster-spesifik2{
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+}
+.poster-spesifik2 p{
+  margin-top: 8px;
+}
+h1{
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+.download-detailsp{
+  background: #1a1e22;
+  color: rgba(255, 255, 255, 0.7);
+  width: 800px;
+  padding: 20px;
+  border-radius: 7px;
+}
+.download-detailsp p{
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+}
+.notfound{
+  background: #1a1e22;
+  padding: 17px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 25px;
+}
+.download-details{
+  margin-left: 60px;
+}

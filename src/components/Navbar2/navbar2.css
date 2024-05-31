@@ -1,0 +1,350 @@
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  padding-left: 245px;
+  background: #111417;
+  height: 50px;
+  top: 0.0001px;
+  z-index: 5;
+}
+.nav-bar input {
+  width: 190px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: fixed;
+  left: 1292px;
+  background: #25282c;
+  outline: none;
+  border: 1px solid #25282c;
+  padding-left: 10px;
+  border-radius: 3px;
+  color: white;
+}
+.glass i {
+  color: white;
+  background: #25282c;
+  width: 40px;
+  height: 30px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding-top: 7.5px;
+  padding-left: 12px;
+  position: fixed;
+  left: 1478px;
+  border-radius: 3px;
+  top: 2px;
+  cursor: pointer;
+}
+.glass i:hover {
+  background: #41464b;
+}
+.bars i {
+  background: #25282c;
+  color: white;
+  width: 40px;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 13px;
+  padding-top: 7.5px;
+  position: relative;
+  right: 230px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.bars i:hover {
+  background: #41464b;
+}
+.nav-bar img {
+  height: 30px;
+  position: relative;
+  top: 10px;
+  right: 220px;
+}
+.house2 {
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  right: 210px;
+  font-size: 17px;
+  top: 1px;
+  cursor: pointer;
+}
+.house2:hover{
+  color: #1890ff;
+}
+.house2 i {
+  position: relative;
+  margin-right: 17px;
+  font-size: 13px;
+  bottom: 2px;
+  cursor: pointer;
+}
+.movies {
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  right: 190px;
+  font-size: 17px;
+  top: 1px;
+  cursor: pointer;
+}
+.movies:hover {
+  color: #1890ff;
+}
+.movies i {
+  position: relative;
+  margin-right: 10px;
+  font-size: 13px;
+  bottom: 1.5px;
+  cursor: pointer;
+}
+.shows {
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  right: 170px;
+  font-size: 17px;
+  top: 1px;
+  cursor: pointer;
+}
+.shows:hover {
+  color: #1890ff;
+}
+.shows i {
+  position: relative;
+  margin-right: 10px;
+  font-size: 13px;
+  bottom: 1.5px;
+  cursor: pointer;
+}
+.request{
+  color: white;
+  font-weight: bolder;
+  font-size: 17px;
+  position: relative;
+  left: 305px;
+  bottom: 24px;
+  cursor: pointer;
+  width: 100px;
+}
+.request:hover{
+  color: #1890ff;
+}
+.request:hover .requesti{
+  color: black;
+  background: #1890ff;
+}
+.requesti{
+  color: black;
+  background: white;
+  margin-right: 10px;
+  width: 16px;
+  border-radius: 3px;
+  font-size: 15px;
+  padding-left: 2px;
+}
+
+/*---------------------------------------- Search Container ----------------------------*/
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* Black with transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  transition: 0.5s;
+  transform: translateY(-100%);
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+.movie-list{
+  display: flex;
+  flex-wrap: wrap; /* Allow movies to wrap to the next row */
+  justify-content: center; /* Center movies horizontally */
+  max-width: 1000px;
+  word-wrap: break-word;
+  gap: 15px;
+}
+.close-x{
+  width: 50px;
+  height: 50px;
+  background: #41464b;
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  padding-top: 16px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.close-x:hover{
+  background: #656a6f;
+}
+.search-movie{
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.movie-container {
+  width: 160px;
+  height: 250px;
+  color: white;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+  border: 5px solid #111417;
+  cursor: pointer;
+}
+.movie-container:hover .movie-poster{
+  filter: blur(2px);
+  transform: scale(1.1);
+  transform-origin: center;
+}
+.movie-container:hover .movie-details{
+  opacity: 1;
+}
+.movie-details {
+  padding-top: 90px;
+  text-align: center;
+  width: 160px;
+  height: 250px;
+  position: relative;
+  bottom: 294px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6) 0%,
+    /* Start with a transparent color (light) at the top */ rgba(0, 0, 0, 0.6) 45%,
+    /* Keep the same color for the top 45% */ rgba(0, 0, 0, 0.8) 50%,
+    /* Transition to a darker color (50% is the middle) */ rgba(0, 0, 0, 0.6) 55%,
+    /* Continue with the same color for the next 5% */ rgba(0, 0, 0, 0.6) 100% /* End with the same transparent color at the bottom */
+  );
+  opacity: 0;
+}
+.movie-details i{
+  background: rgba(99, 84, 90, 0.5);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 9px;
+  border-radius: 7px;
+  transition: 0.2s ease-out;
+  margin-right: 5px;
+  margin-top: 2px;
+  font-size: 12px;
+}
+.movie-details i:hover{
+  background: rgba(131, 116, 121, 0.5);
+}
+.movie-title{
+  text-align: center;
+  font-size: 12px;
+  max-width: 140px;
+  color: white;
+  position: relative;
+  left: 5px;
+  margin-bottom: 5px;
+}
+.movie-poster{
+  width: 170px;
+  height: 250px;
+  background: black;
+  transition: filter 0.3s, transform 0.3s; /* Add transitions for smooth effects */
+}
+.movie-year{
+  font-size: 13px;
+  height: 20px;
+  position: relative;
+  background: #111417;
+  border-radius: 5px;
+  color: white;
+  bottom: 60px;
+  left: 10px;
+  text-align: center;
+  padding-top: 2px;
+  font-weight: bolder;
+  width: 50px;
+}
+.movie-hd{
+  position: relative;
+  bottom: 245px;
+  left: 100px;
+  background: #111417;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 2px;
+  font-weight: bolder;
+  width: 40px;
+  font-size: 13px;
+  height: 20px;
+}
+
+/*------------------------------------- Movie Detail --------------------------------*/
+
+.close-modal{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: bolder;
+  background: #41464b;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 1px;
+  position: relative;
+  left: 440px;
+  bottom: 25px;
+}
+.close-modal:hover{
+  background: #656a6f;
+}
+.movie-plot{
+  background: black;
+}
+.modal{
+  top: 70px;
+  color: white;
+  position: absolute;
+  background: #111417;
+  padding: 15px;
+  width: 500px;
+}
+.modal p{
+  font-weight: bolder;
+  font-size: 20px;
+}
+.detail{
+  display: flex;
+  margin-left: 15px;
+}
+.detail img{
+  width: 130px;
+  height: 200px;
+  border: 5px solid #25282c;
+  margin-right: 15px;
+}
+.detailP b{
+  font-size: 17px;
+}
+.detailP p{
+  font-weight: lighter;
+  font-size: 15px;
+}
+.detail-plot{
+  width: 200px;
+}
+.detailP{
+  width: 300px;
+  margin-bottom: 20px;
+}

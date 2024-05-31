@@ -1,0 +1,23 @@
+.about{
+  position: relative;
+  top: 100px;
+  width: 750px;
+  left: 400px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.about-p{
+  position: relative;
+  top: 10px;
+}
+.about-p p{
+  display: inline;
+}
+.title-text2 {
+  background: #111417;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-left: 80px;
+  margin-top: 490px;
+}
